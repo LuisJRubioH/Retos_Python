@@ -24,7 +24,6 @@ def max_calculator(n1:int, n2:int):
 
 print(max_calculator(3,7))
 print(max_calculator(-2,-6))
-#print(max_calculator(5,5))
 
 """" Definir una función que tome como argumentos dos números 
 y devuelva el mayor de ellos
@@ -48,3 +47,5 @@ def max_entre_tres(n1:int, n2:int, n3:int):
 print(max_entre_tres(2,5,3))
 print(max_entre_tres(2,-5,1))
 print(max_entre_tres(-6,0,-3))
+
+print(max_calculator(5,5))
