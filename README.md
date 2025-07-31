@@ -10,5 +10,5 @@ Restos de programación  python para principiantes
 
   - Facil
   - Medio
-  - Dificil
+  - Dificil  
 
