@@ -15,16 +15,15 @@ def max_calculator(n1:int, n2:int):
     """
 
     if n1 > n2:
-        return f"El valor máximo es {n1}"
+        return n1
     elif n2 > n1:
-        return f"El valor máximo es {n2}"
+        return n2
     elif n1 == n2:
         raise Exception("Los numeros no deben ser iguales")
     raise Exception ("Algo salió mal")
 
 print(max_calculator(3,7))
 print(max_calculator(-2,-6))
-#print(max_calculator(5,5))
 
 """" Definir una función que tome como argumentos dos números 
 y devuelva el mayor de ellos
@@ -48,3 +47,5 @@ def max_entre_tres(n1:int, n2:int, n3:int):
 print(max_entre_tres(2,5,3))
 print(max_entre_tres(2,-5,1))
 print(max_entre_tres(-6,0,-3))
+
+print(max_calculator(5,5))
