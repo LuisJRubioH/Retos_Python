@@ -15,9 +15,9 @@ def max_calculator(n1:int, n2:int):
     """
 
     if n1 > n2:
-        return f"El valor máximo es {n1}"
+        return n1
     elif n2 > n1:
-        return f"El valor máximo es {n2}"
+        return n2
     elif n1 == n2:
         raise Exception("Los numeros no deben ser iguales")
     raise Exception ("Algo salió mal")
