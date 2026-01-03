@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img src="benner_retos_python.png" alt="Data quote banner" width="100%">
 </p>
 
