@@ -30,3 +30,6 @@ Los ejercicios están basados y adaptados a partir de los siguientes repositorio
 
 - https://github.com/codin-eric/ejercicios_yt
 - https://github.com/mouredev
+
+**101 ejercicios para practicar lógica de programación by mouredev**
+- https://retosdeprogramacion.com/ejercicios/
