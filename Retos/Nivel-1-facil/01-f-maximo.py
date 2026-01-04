@@ -8,8 +8,8 @@ def max_calculator(n1:int, n2:int):
     """Dados dos números enteros de entrada, retorna el máximo
 
     Args:
-        n1 (int): primer núemro a comparar
-        n2 (int): segundo núemro a comparar
+        n1 (int): primer número a comparar
+        n2 (int): segundo número a comparar
 
     Return: mayor de ambos
     """
@@ -19,7 +19,7 @@ def max_calculator(n1:int, n2:int):
     elif n2 > n1:
         return n2
     elif n1 == n2:
-        raise Exception("Los numeros no deben ser iguales")
+        raise Exception("Los números no deben ser iguales")
     raise Exception ("Algo salió mal")
 
 print(max_calculator(3,7))
@@ -32,7 +32,7 @@ No usar funciones predetermindas de python con max()
 
 def max_entre_tres(n1:int, n2:int, n3:int):
 
-    """ Dados tres núemros y retornamos el mayor
+    """ Dados tres números y retornamos el mayor
     Args:
         n1 (int): primer número a comparar
         n2 (int): segundo número a comparar
