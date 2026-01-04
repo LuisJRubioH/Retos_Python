@@ -2,26 +2,31 @@
   <img src="benner_retos_python.png" alt="Data quote banner" width="100%">
 </p>
 
-# **Retos de programación en Python**
+# **Retos de Programación en Python**
 
-Restos de programación  python para principiantes
+## Descripción
 
-## Objetivos
+Colección de retos de programación en **Python** diseñados para fortalecer la lógica de programación y desarrollar habilidades prácticas en el lenguaje.
 
-- Mejorar la lógica de programación
-- Aprender python
+## **Objetivos**
 
-## Retos
+- Desarrollar y mejorar la lógica de programación.
+- Aprender y reforzar el uso de Python mediante la resolución de problemas.
+- Fomentar el pensamiento algorítmico y la resolución estructurada de retos.
 
-- Los retos estarán clasificados en carpetas según la dificultad (o nivel): 
+## **Organización de los Retos**
 
-  - Facil
-  - Medio
-  - Dificil  
+Los retos están organizados en carpetas según su nivel de dificultad:
 
+- **Fácil**
+- **Medio**
+- **Difícil**
 
-## respositorios de GitHub usados para los retos
+Cada carpeta contiene ejercicios acordes al nivel, permitiendo un progreso gradual.
+
+## **Fuentes de los Retos**
+
+Los ejercicios están basados y adaptados a partir de los siguientes repositorios de GitHub:
 
 - https://github.com/codin-eric/ejercicios_yt
-  
 - https://github.com/mouredev
