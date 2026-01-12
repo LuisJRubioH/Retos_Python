@@ -1,4 +1,4 @@
-"""DIA $4 - A Encuentra a los gatitos más famosos
+"""DIA #4 - A Encuentra a los gatitos más famosos
 En este desafío, debes encontrar al gatito más famoso con base en su número de seguidores.
 Recibirás una lista de diccionarios que incluirán las siguientes propiedades:
 "name": nombre del gatito.
@@ -42,3 +42,20 @@ Input: find_famous_cat([
 Output: ["Milo", "Gizmo"]
 """
 
+def find_famous_cat(lista:list[dict]) -> list[str]:
+    """Determina el o los gatos más famosos según la cantidad de seguidores
+    Args:
+        lista: list de diccionarios
+
+    Returns:
+        lista con el nombre del gato más famoso
+
+    """
+
+    total_followers = [sum(gato["followers"]) for gato in lista]
+
+    max_followers = max(total_followers)
+
+    most_famous = [lista[j]["name"] for j, total in enumerate(total_followers) if total == max_followers]
+
+    return most_famous
